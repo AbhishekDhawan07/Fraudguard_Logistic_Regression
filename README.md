@@ -16,6 +16,7 @@ A supervised machine learning project that detects fraudulent credit card transa
 8. [Model Performance](#model-performance)
 9. [Key Insights](#key-insights)
 10. [Author](#author)
+11. [Contributing](#contributing)
 
 ---
 
@@ -273,4 +274,11 @@ Built as a Python machine learning portfolio project to demonstrate handling of 
 
 ---
 
-> ⭐ If you found this project helpful, feel free to star or fork the repository!
+🤝 Contributing
+
+Contributions are welcome! If you'd like to improve this project, feel free to fork the repository and submit a pull request 🚀
+
+---
+
+> ⭐ If you found this project useful, consider starring the repository!
+
