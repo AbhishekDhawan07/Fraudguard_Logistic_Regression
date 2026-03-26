@@ -1,4 +1,4 @@
-# 💳 Credit Card Fraud Detection — Logistic Regression Project
+# 💳 Fraudguard_Logistic_Regression - Credit Card Fraud Detection using Logistic Regression
 
 A supervised machine learning project that detects fraudulent credit card transactions using Logistic Regression. The project covers the complete ML pipeline — from exploratory data analysis, class imbalance handling via under-sampling, model training, and evaluation using both accuracy and precision scores.
 
