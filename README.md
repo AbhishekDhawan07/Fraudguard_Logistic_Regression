@@ -1,6 +1,6 @@
-# 💳 Fraudguard_Logistic_Regression - Credit Card Fraud Detection using Logistic Regression
+# 💳 Fraudguard Logistic Regression - Credit Card Fraud Detection using Logistic Regression
 
-A supervised machine learning project that detects fraudulent credit card transactions using Logistic Regression. The project covers the complete ML pipeline — from exploratory data analysis, class imbalance handling via under-sampling, model training, and evaluation using both accuracy and precision scores.
+A supervised machine learning project that detects fraudulent credit card transactions using Logistic Regression. The project covers the complete ML pipeline -from exploratory data analysis, class imbalance handling via under-sampling, model training, and evaluation using both accuracy and precision scores.
 
 ---
 
@@ -22,7 +22,7 @@ A supervised machine learning project that detects fraudulent credit card transa
 
 ## Project Overview
 
-This project tackles one of the most critical real-world problems in financial security — detecting fraudulent credit card transactions. Using a highly imbalanced dataset of 284,807 transactions, the project applies **under-sampling** to handle class imbalance and trains a **Logistic Regression** classifier to distinguish legitimate transactions (Class = 0) from fraudulent ones (Class = 1).
+This project tackles one of the most critical real-world problems in financial security - detecting fraudulent credit card transactions. Using a highly imbalanced dataset of 284,807 transactions, the project applies **under-sampling** to handle class imbalance and trains a **Logistic Regression** classifier to distinguish legitimate transactions (Class = 0) from fraudulent ones (Class = 1).
 
 The project demonstrates a clean end-to-end machine learning workflow in Python using `scikit-learn`, `pandas`, `matplotlib`, and `seaborn` — suitable as a portfolio project or a reference for handling imbalanced classification tasks.
 
@@ -60,7 +60,7 @@ The project demonstrates a clean end-to-end machine learning workflow in Python 
 | Column | Type | Description |
 |---|---|---|
 | `Time` | float64 | Seconds elapsed between a transaction and the first transaction in the dataset |
-| `V1` – `V28` | float64 | PCA-transformed features — original transaction data anonymized to protect customer privacy |
+| `V1` – `V28` | float64 | PCA-transformed features - original transaction data anonymized to protect customer privacy |
 | `Amount` | float64 | Transaction amount in currency units |
 | `Class` | int64 | Target label: `0` = Legitimate, `1` = Fraudulent |
 
@@ -94,7 +94,7 @@ df.isnull().sum()
 Class 0 (Legitimate): 283,253  →  99.83%
 Class 1 (Fraudulent):     473  →   0.17%
 ```
-Observation: Data is **highly imbalanced** — fraud cases are extremely rare.
+Observation: Data is **highly imbalanced** - fraud cases are extremely rare.
 
 **Statistical Comparison (groupby mean):**
 
@@ -104,7 +104,7 @@ Observation: Data is **highly imbalanced** — fraud cases are extremely rare.
 | Amount | ~$88.41 | ~$123.87 |
 | V1 – V28 | Near 0 | Far from 0 (distinctive patterns) |
 
-Key observations: Fraud transactions tend to occur earlier in the dataset, involve higher average amounts, and show strongly deviant PCA feature values — all of which are useful signals for the model.
+Key observations: Fraud transactions tend to occur earlier in the dataset, involve higher average amounts, and show strongly deviant PCA feature values - all of which are useful signals for the model.
 
 ---
 
